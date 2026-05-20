@@ -1,0 +1,63 @@
+# === Pliki wrażliwe / środowiskowe ===
+.env
+.env.local
+.env*.local
+.env.production
+.env.development
+
+# === Pliki systemowe / IDE ===
+.DS_Store
+*.pem
+.expo/
+.idea/
+.vscode/
+
+# === Pliki wewnętrzne / binarne ===
+README.okular
+
+# === Zależności ===
+node_modules/
+.pnp
+.pnp.js
+
+# === Logi i debug ===
+*.log
+*.pid
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# === TypeScript ===
+*.tsbuildinfo
+next-env.d.ts
+expo-env.d.ts
+
+# === Backend ===
+backend/.env
+backend/server.log
+backend/server.pid
+
+# === Magic FPV Studio (frontend web) ===
+magic-fpv-studio/.next/
+magic-fpv-studio/.lib/
+magic-fpv-studio/out/
+magic-fpv-studio/build/
+magic-fpv-studio/coverage/
+magic-fpv-studio/public/photos/
+magic-fpv-studio/public/videos/
+magic-fpv-studio/.vercel
+
+# === Mobile (Expo / React Native) ===
+mobile-magicfpv/dist/
+mobile-magicfpv/web-build/
+mobile-magicfpv/app-example/
+mobile-magicfpv/ios/
+mobile-magicfpv/android/
+mobile-magicfpv/.kotlin/
+mobile-magicfpv/.metro-health-check*
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
